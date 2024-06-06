@@ -1,0 +1,26 @@
+.appear{
+    display: inline;
+}
+.disappear{
+    display: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero button{
+    padding: 5px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10%;
+    
+}
